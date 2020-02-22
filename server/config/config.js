@@ -27,4 +27,8 @@ if( process.env.NODE_ENV == 'dev') {
     // 'mongodb+srv://cafe-user:wpWSEI8PTUY0FZ95@cluster0-wuemn.mongodb.net/test?retryWrites=true&w=majority'
 }
 
+
+// google client id
+process.env.CLIENT_ID = process.env.CLIENT_ID || '1034787333096-crkee7k98trehif5dgjrj21mnlpli52j.apps.googleusercontent.com';
+
 process.env.URLDB = urlDb;
